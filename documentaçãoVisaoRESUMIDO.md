@@ -2,7 +2,7 @@
 
 <br>
 
-# Projeto BigFarma
+# **Projeto BigFarma**
 
 ## O projeto bigFarma, visa o seguinte:
 ### um Website que possa servir de catalogo para uma farmácia, dessa forma, tendo um cabeçalho que identifique o projeto.
@@ -18,7 +18,7 @@
 
 ### Por ultimo, um rodapé que identifique os atalhos do site e contenha o copyright definindo como um projeto que possuí autoria própria.
 #
-## Casos de uso:
+## **Casos de uso:**
 
 UC001: Formulário de contato
 
