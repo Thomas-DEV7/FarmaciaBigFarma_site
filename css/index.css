@@ -216,3 +216,6 @@ section .categorias img{
     text-align: center;
     border-radius: 10px;
 }
+.none{
+    display: none;
+}
