@@ -189,9 +189,30 @@ section .categorias img{
     flex-direction: row;
     padding: 20px;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 .prod{
-    height: 100px;
-
     background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.prod .desc{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.prod p strong{
+    color: var(--p-blue);
+}
+
+.prod a{
+    text-decoration: dashed;
+    background-color: orangered;
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
 }
