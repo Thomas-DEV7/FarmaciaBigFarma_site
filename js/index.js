@@ -25,7 +25,7 @@ const cat4 = document.querySelector("#cat4");
 const cat5 = document.querySelector("#cat5");
 const cat6 = document.querySelector("#cat6");
 
-cg1.addEventListener('click', function(){  //para testes
+cg1.addEventListener('click', function(){  
     cat1.style.display = "block";
     cat2.style.display = "none";
     cat3.style.display = "none";
@@ -33,7 +33,7 @@ cg1.addEventListener('click', function(){  //para testes
     cat5.style.display = "none";
     cat6.style.display = "none";
 });
-cg2.addEventListener('click', function(){  //para testes
+cg2.addEventListener('click', function(){  
     cat1.style.display = "none";
     cat2.style.display = "block";
     cat3.style.display = "none";
@@ -41,7 +41,7 @@ cg2.addEventListener('click', function(){  //para testes
     cat5.style.display = "none";
     cat6.style.display = "none";
 })
-cg3.addEventListener('click', function(){  //para testes
+cg3.addEventListener('click', function(){  
     cat1.style.display = "none";
     cat2.style.display = "none";
     cat3.style.display = "block";
@@ -49,7 +49,7 @@ cg3.addEventListener('click', function(){  //para testes
     cat5.style.display = "none";
     cat6.style.display = "none";
 })
-cg4.addEventListener('click', function(){  //para testes
+cg4.addEventListener('click', function(){  
     cat1.style.display = "none";
     cat2.style.display = "none";
     cat3.style.display = "none";
@@ -57,7 +57,7 @@ cg4.addEventListener('click', function(){  //para testes
     cat5.style.display = "none";
     cat6.style.display = "none";
 })
-cg5.addEventListener('click', function(){  //para testes
+cg5.addEventListener('click', function(){  
     cat1.style.display = "none";
     cat2.style.display = "none";
     cat3.style.display = "none";
@@ -65,7 +65,7 @@ cg5.addEventListener('click', function(){  //para testes
     cat5.style.display = "block";
     cat6.style.display = "none";
 })
-cg6.addEventListener('click', function(){  //para testes
+cg6.addEventListener('click', function(){  
     cat1.style.display = "none";
     cat2.style.display = "none";
     cat3.style.display = "none";
