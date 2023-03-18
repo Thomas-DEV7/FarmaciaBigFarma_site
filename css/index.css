@@ -132,6 +132,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 1px 1px var(--p-blue);
+
 }
 main .text{
     margin-left: 10%;
@@ -145,10 +147,10 @@ main .text{
 }
 main .text h2 {
     color: var(--p-blue);
-    text-shadow: 1px 1px #000;
+    /* text-shadow: 1px 1px #000; */
 }
 main .text p{
-    text-shadow: 0.5px 0.5px #000;
+    /* text-shadow: 0.5px 0.5px #000; */
 }
 main .text a{
     text-decoration: none;
@@ -196,6 +198,7 @@ section .categorias img{
     background-color: #fff;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 1px 2px #949494;
 }
 .prod .desc{
     padding: 5px;
@@ -209,7 +212,7 @@ section .categorias img{
 
 .prod a{
     text-decoration: dashed;
-    background-color: orangered;
+    background-color: #ff4500;
     color: #fff;
     padding: 5px;
     width: 100px;
