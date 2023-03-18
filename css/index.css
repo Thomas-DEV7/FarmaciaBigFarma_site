@@ -185,6 +185,7 @@ section .categorias img{
     border-radius: 100px;
     border: 2px solid var(--p-blue);
     padding: 10px;
+    cursor: pointer ;
 }
 .produtos{
     display: flex;

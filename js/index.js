@@ -1,3 +1,4 @@
+// Menu Mobile
 function menuShow(){
     let menuMobile = document.querySelector('.mobile-menu');
     if(menuMobile.classList.contains('open')){
@@ -8,3 +9,29 @@ function menuShow(){
         document.querySelector('.icon').src = "./img/menu-close.png";
     }
 }
+// Renderizações condicionais por click
+const cg1 = document.querySelector("#cg1");
+const cg2 = document.querySelector("#cg2");
+const cg3 = document.querySelector("#cg3");
+const cg4 = document.querySelector("#cg4");
+const cg5 = document.querySelector("#cg5");
+const cg6 = document.querySelector("#cg6");
+
+cg1.addEventListener('click', function(){  //para testes
+    alert("funcionando.1");
+});
+cg2.addEventListener('click', function(){  //para testes
+    alert("funcionando.2");
+})
+cg3.addEventListener('click', function(){  //para testes
+    alert("funcionando.3");
+})
+cg4.addEventListener('click', function(){  //para testes
+    alert("funcionando.4");
+})
+cg5.addEventListener('click', function(){  //para testes
+    alert("funcionando. 5");
+})
+cg6.addEventListener('click', function(){  //para testes
+    alert("funcionando. 6");
+})
