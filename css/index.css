@@ -223,3 +223,11 @@ section .categorias img{
 .none{
     display: none;
 }
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    text-decoration: dashed;
+}
