@@ -223,11 +223,25 @@ section .categorias img{
 .none{
     display: none;
 }
-
+/* footer */
 footer{
     background-color: #000;
     color: #fff;
     padding: 30px;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-footer p a{
     text-decoration: dashed;
+    color: #ccc;
+}
+.item-footer p{
+    color: #ccc;
+    width: 300px;
+    margin: 10px
+}
+.item-footer img{
+    height: 130px;
 }
